@@ -1,9 +1,13 @@
- import image from "next/image";
+ import { Button } from "@/components/ui/button";
+import image from "next/image";
 
  export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="flex h-screen max-h-screen">
+      <section className="remove-scrollbar container my-auto">
+
+      </section>
+       
     </div>
   )
  }
